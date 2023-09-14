@@ -1,3 +1,3 @@
-idf_component_register (SRCS "aht20_slave.c"
+idf_component_register (SRCS "wifi_sta_esp.c"
                         INCLUDE_DIRS "."
-			REQUIRES "driver" i2c_master)
+                        REQUIRES i2c_master esp_event esp_wifi)
